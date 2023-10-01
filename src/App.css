@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.blueGradient {
+  background: transparent linear-gradient(91deg, #1cd2e2 0, #1cd2e26e 100%) 0 0
+    no-repeat padding-box;
+}
+.heading {
+  text-align: center;
+}
+.heading h2 {
+  letter-spacing: -1px;
+  @apply font-semibold text-dark text-lg sm:text-xl md:text-2xl lg:text-3xl;
+}
+.heading p {
+  @apply my-4 text-darkGray md:text-lg lg:text-xl;
+}
+.productSlider .slick-dots {
+  bottom: 10px !important;
+}
+.productSlider .slick-dots li button {
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50%;
+  background-color: white !important;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.productSlider .slick-dots .slick-active button {
+  background-color: #1cd2e2 !important;
+}
+.productSlider .slick-dots li button:before {
+  font-size: 0 !important;
+}
+.slick-arrow {
+  display: none !important;
+}
