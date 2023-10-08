@@ -12,7 +12,7 @@ const OurProjects = () => {
           <h2>مشاريعنا</h2>
           <p>بعض كمن مشاريعنا في مجال البرمجيات والتسويق</p>
         </div>
-      </div>{" "}
+      </div>
       <div className="bg-lightGray py-8">
         <div className="flex container flex-col gap-8 lg:flex-row">
           <div className="lg:w-[50%]">

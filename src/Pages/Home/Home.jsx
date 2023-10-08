@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <MainSec />
-      <Clients />
+      {/* <Clients /> */}
       <OurServices />
       <ProjectsSlider />
       <AudioReviews />

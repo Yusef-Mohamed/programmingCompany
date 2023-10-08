@@ -1,43 +1,7 @@
 import ServiesCard from "../../components/ServiesCard";
+import { services } from "../../servises";
 
 const OurServices = () => {
-  const services = [
-    {
-      heading: "إنشاء المواقع الإلكترونية",
-      image: "https://webstdy.com/storage/services/6220e75a2d5f51646323546.svg",
-      paragraph:
-        "موقعك على الإنترنت هو نافذة رئيسية تقدم شركتك إلى العالم، لذا نعمل باحترافية على تصميم وتطوير تجربة إلكترونية فريدة لجمهورك عبر موقعك تلبي احتياجاتهم، وتجعلهم لا يملون قضاء وقت أطول",
-      link: "/test",
-    },
-    {
-      heading: "إنشاء المواقع الإلكترونية",
-      image: "https://webstdy.com/storage/services/6220e75a2d5f51646323546.svg",
-      paragraph:
-        "موقعك على الإنترنت هو نافذة رئيسية تقدم شركتك إلى العالم، لذا نعمل باحترافية على تصميم وتطوير تجربة إلكترونية فريدة لجمهورك عبر موقعك تلبي احتياجاتهم، وتجعلهم لا يملون قضاء وقت أطول",
-      link: "/test",
-    },
-    {
-      heading: "إنشاء المواقع الإلكترونية",
-      image: "https://webstdy.com/storage/services/6220e75a2d5f51646323546.svg",
-      paragraph:
-        "موقعك على الإنترنت هو نافذة رئيسية تقدم شركتك إلى العالم، لذا نعمل باحترافية على تصميم وتطوير تجربة إلكترونية فريدة لجمهورك عبر موقعك تلبي احتياجاتهم، وتجعلهم لا يملون قضاء وقت أطول",
-      link: "/test",
-    },
-    {
-      heading: "إنشاء المواقع الإلكترونية",
-      image: "https://webstdy.com/storage/services/6220e75a2d5f51646323546.svg",
-      paragraph:
-        "موقعك على الإنترنت هو نافذة رئيسية تقدم شركتك إلى العالم، لذا نعمل باحترافية على تصميم وتطوير تجربة إلكترونية فريدة لجمهورك عبر موقعك تلبي احتياجاتهم، وتجعلهم لا يملون قضاء وقت أطول",
-      link: "/test",
-    },
-    {
-      heading: "إنشاء المواقع الإلكترونية",
-      image: "https://webstdy.com/storage/services/6220e75a2d5f51646323546.svg",
-      paragraph:
-        "موقعك على الإنترنت هو نافذة رئيسية تقدم شركتك إلى العالم، لذا نعمل باحترافية على تصميم وتطوير تجربة إلكترونية فريدة لجمهورك عبر موقعك تلبي احتياجاتهم، وتجعلهم لا يملون قضاء وقت أطول",
-      link: "/test",
-    },
-  ];
   return (
     <div className="py-12 container">
       <div className="heading">
@@ -55,8 +19,10 @@ const OurServices = () => {
             <ServiesCard
               heading={item.heading}
               paragraph={item.paragraph}
-              image={item.image}
-              link={item.link}
+              image={
+                "https://webstdy.com/storage/services/6220e75a2d5f51646323546.svg"
+              }
+              link={item.id}
             />
           </div>
         ))}

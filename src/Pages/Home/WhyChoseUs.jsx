@@ -1,39 +1,39 @@
 const WhyChoseUs = () => {
+  // <li>1) </li>
+  //       <li>2) </li>
+  //       <li>3) </li>
+  //       <li>4) </li>
+  //       <li>5) </li>
+  //       <li>6) </li>
   return (
     <div className="py-12 bg-lightGray">
       <div className="container">
         <div className="heading">
-          <h2>
-            لماذا تختار شركة ويب ستدي لتنفيذ مشروعك سواء كان إنشاء موقع إلكتروني
-            أو إنشاء تطبيق جوال
-          </h2>
+          <h2>لماذا تختار شركه ..... لتنفيذ مشروعك المستقبلي</h2>
           <p>
-            نحن لسنا مجرد شركة برمجة تنفذ لك مشروعك وتنتهي علاقتنا بك بعد
-            تسليمه، وإنما نوفر لك دعم فني مميز مجانًا لمدة عام كامل لنضمن تشغيل
-            موقع الإنترنت أو تطبيق الجوال الخاص بك على أكمل وجه، لذلك سنكون
-            بمثابة شريك تقني داعم لمشروعك.
+            ندرس منافسيك للوقوف على نقاط القوة والضعف التي يجب أن يعمل عليها أو
+            يتلافاها موقعك/مشروعك.
           </p>
         </div>
-        <div className="grid md:grid-cols-2">
-          <div className="flex items-center gap-4 p-4 md:border-l md:border-b border-b md:border-b-lightGray  border-[#e7e7e7]">
+        <p>
+          نحن لسنا مجرد شركه تنفيذ المشاريع .. نحن نساهم في النجاح من بدايه
+          الفكره الى تحقيقها من نقطه الصفر الى النجاح و الوصول الى الهدف .. لا
+          تنتهى علاقتنا باالعميل بعد التسليم وإنما نوفر له دعم فني مميز لنظم
+          تشغيل موقع الانترنت او الجوال على اكمل وجه وكما العميل يحلم ان يكون
+          مشروعه ..لذلك نحن شركاء في النجاح ..نجاح عملائنا هو نجاحنا .
+        </p>
+        <div className="grid md:grid-cols-2 mt-6">
+          <div className="flex items-center gap-4 p-4  border border-[#e7e7e7]">
             <img
               src="https://webstdy.com/web/img/2022/webp/quality-standards.webp"
               alt=""
               className="h-[50px] md:h-[75px] lg:h-[100px]"
             />
             <div>
-              <h2 className="font-semibold text-dark text-lg">
-                معايير الجودة العالية
-              </h2>
-              <p className="text-sm">
-                نراعي في تنفيذ مشاريع تصميم مواقع الإنترنت وتطبيقات الهواتف
-                الإلتزام بالمعايير القياسية لتأمين بيانات المستخدمين وكذلك أفضل
-                ممارسات تجربة المستخدم لتمكين الأنشطة التجارية والخدمية من
-                مواكبة أحدث توجهات التحول الرقمي.
-              </p>
+              <h2 className="font-semibold text-dark text-lg">التخطيط</h2>
             </div>
           </div>
-          <div className="flex items-center p-4 gap-4 md:border-r md:border-b border-b md:border-b-lightGray  border-[#e7e7e7] ">
+          <div className="flex items-center gap-4 p-4  border border-[#e7e7e7]">
             <img
               src="https://webstdy.com/web/img/2022/webp/quality-standards.webp"
               alt=""
@@ -41,17 +41,11 @@ const WhyChoseUs = () => {
             />
             <div>
               <h2 className="font-semibold text-dark text-lg">
-                معايير الجودة العالية
+                دراسة وتصميم المحتوي مع العميل في مراحل التفيذ يدا بيد
               </h2>
-              <p className="text-sm">
-                نراعي في تنفيذ مشاريع تصميم مواقع الإنترنت وتطبيقات الهواتف
-                الإلتزام بالمعايير القياسية لتأمين بيانات المستخدمين وكذلك أفضل
-                ممارسات تجربة المستخدم لتمكين الأنشطة التجارية والخدمية من
-                مواكبة أحدث توجهات التحول الرقمي.
-              </p>
             </div>
           </div>
-          <div className="flex items-center gap-4 p-4  md:border-l md:border-t border-b md:border-b-lightGray  border-[#e7e7e7]">
+          <div className="flex items-center gap-4 p-4  border border-[#e7e7e7]">
             <img
               src="https://webstdy.com/web/img/2022/webp/quality-standards.webp"
               alt=""
@@ -59,17 +53,11 @@ const WhyChoseUs = () => {
             />
             <div>
               <h2 className="font-semibold text-dark text-lg">
-                معايير الجودة العالية
+                النجاح ومعايير الجودة العالية
               </h2>
-              <p className="text-sm">
-                نراعي في تنفيذ مشاريع تصميم مواقع الإنترنت وتطبيقات الهواتف
-                الإلتزام بالمعايير القياسية لتأمين بيانات المستخدمين وكذلك أفضل
-                ممارسات تجربة المستخدم لتمكين الأنشطة التجارية والخدمية من
-                مواكبة أحدث توجهات التحول الرقمي.
-              </p>
             </div>
           </div>
-          <div className="flex items-center gap-4 p-4 md:border-r md:border-t border-b md:border-b-lightGray  border-[#e7e7e7]">
+          <div className="flex items-center gap-4 p-4  border border-[#e7e7e7]">
             <img
               src="https://webstdy.com/web/img/2022/webp/quality-standards.webp"
               alt=""
@@ -77,14 +65,32 @@ const WhyChoseUs = () => {
             />
             <div>
               <h2 className="font-semibold text-dark text-lg">
-                معايير الجودة العالية
+                دعم فني سريع ومميز
               </h2>
-              <p className="text-sm">
-                نراعي في تنفيذ مشاريع تصميم مواقع الإنترنت وتطبيقات الهواتف
-                الإلتزام بالمعايير القياسية لتأمين بيانات المستخدمين وكذلك أفضل
-                ممارسات تجربة المستخدم لتمكين الأنشطة التجارية والخدمية من
-                مواكبة أحدث توجهات التحول الرقمي.
-              </p>
+            </div>
+          </div>
+          <div className="flex items-center gap-4 p-4  border border-[#e7e7e7]">
+            <img
+              src="https://webstdy.com/web/img/2022/webp/quality-standards.webp"
+              alt=""
+              className="h-[50px] md:h-[75px] lg:h-[100px]"
+            />
+            <div>
+              <h2 className="font-semibold text-dark text-lg">
+                التطوير والتحديث لمواكبة أحدث التقنيات
+              </h2>
+            </div>
+          </div>
+          <div className="flex items-center gap-4 p-4  border border-[#e7e7e7]">
+            <img
+              src="https://webstdy.com/web/img/2022/webp/quality-standards.webp"
+              alt=""
+              className="h-[50px] md:h-[75px] lg:h-[100px]"
+            />
+            <div>
+              <h2 className="font-semibold text-dark text-lg">
+                رضاء العميل هوا هدفنا
+              </h2>
             </div>
           </div>
         </div>

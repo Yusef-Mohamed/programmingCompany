@@ -1,14 +1,12 @@
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { AppContext } from "../App";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBars, FaEarthAmericas } from "react-icons/fa6";
 const Header = () => {
-  const { lang, setLang } = useContext(AppContext);
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed py-4  top-0 w-full text-[white]  bg-dark z-10">
+    <header className="fixed py-4  top-0 w-full text-[white]  bg-dark z-20">
       <div className="container flex items-center justify-between">
         <nav className="flex gap-4 items-center">
           <img
@@ -52,21 +50,6 @@ const Header = () => {
           </ul>
         </nav>
         <div className="gap-4 items-center hidden lg:flex">
-          <button
-            className=" flex items-center gap-2"
-            onClick={() => {
-              if (lang === "en") {
-                localStorage.setItem("lang", "ar");
-                setLang("ar");
-              } else if (lang === "ar") {
-                localStorage.setItem("lang", "en");
-                setLang("en");
-              }
-            }}
-          >
-            <FaEarthAmericas />
-            {lang === "en" ? "العربية" : "English"}
-          </button>
           <Link
             className="blueGradient block w-fit mx-auto px-4 py-[1px] rounded-md"
             to={"/"}
@@ -122,23 +105,6 @@ const Header = () => {
               >
                 تواصل معنا
               </NavLink>
-            </li>
-            <li>
-              <button
-                className=" flex items-center gap-2"
-                onClick={() => {
-                  if (lang === "en") {
-                    localStorage.setItem("lang", "ar");
-                    setLang("ar");
-                  } else if (lang === "ar") {
-                    localStorage.setItem("lang", "en");
-                    setLang("en");
-                  }
-                }}
-              >
-                <FaEarthAmericas />
-                {lang === "en" ? "العربية" : "English"}
-              </button>
             </li>
           </ul>
         </div>
