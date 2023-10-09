@@ -2,7 +2,7 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import { useCallback } from "react";
 import Clients from "./Clients";
-import main from "../../assets/mainLanding.jpg";
+import main from "../../assets/landing-image.png";
 
 const MainSec = () => {
   const particlesInit = useCallback(async (engine) => {
