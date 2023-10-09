@@ -12,7 +12,6 @@ const ServiesCard = ({ link, heading, image, paragraph }) => {
         size={30}
       />
 
-      <img src={image} className="h-[75px] mb-8" alt="" />
       <h2 className="font-semibold text-2xl mb-2 text-dark">{heading}</h2>
       <p className="text-darkGray">{paragraph}</p>
     </Link>

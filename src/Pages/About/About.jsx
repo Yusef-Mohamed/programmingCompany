@@ -1,7 +1,8 @@
 import EmailSub from "../../components/EmailSub";
 import OurServices from "../Home/OurServices";
 import TextReviews from "../Home/TextReviews";
-
+import aboutus from "../../assets/whoweare.png";
+import goals from "../../assets/goals.jpg";
 const About = () => {
   return (
     <>
@@ -9,7 +10,7 @@ const About = () => {
         <div className="heading">
           <h2>من نحن</h2>
         </div>
-        <div className="grid lg:grid-cols-2 items-center my-4">
+        <div className="grid lg:grid-cols-2 items-center my-4 gap-4">
           <div>
             <p className="text-textGray">
               نحن الحاضر و المستقبل ...نحن صناع النجاح ... نحقق الرؤية... نبنى
@@ -27,8 +28,8 @@ const About = () => {
           </div>{" "}
           <div>
             <img
-              className="mx-auto"
-              src="https://webstdy.com/web/new-images/Mahmoud Nabil.png"
+              className="mx-auto border border-lightGray rounded-xl"
+              src={aboutus}
               alt=""
             />
           </div>
@@ -38,11 +39,11 @@ const About = () => {
         <div className="heading">
           <h2>قيمنا واهدافنا</h2>
         </div>
-        <div className="grid lg:grid-cols-2 items-center my-4">
+        <div className="grid lg:grid-cols-2 items-center gap-4 my-4">
           <div>
             <img
-              className="mx-auto"
-              src="https://webstdy.com/web/new-images/Mahmoud Nabil.png"
+              className="mx-auto border w-full border-lightGray rounded-xl"
+              src={goals}
               alt=""
             />
           </div>
@@ -65,7 +66,6 @@ const About = () => {
       </div>
       <TextReviews />
       <OurServices />
-      <EmailSub />
     </>
   );
 };

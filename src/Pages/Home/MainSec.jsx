@@ -2,6 +2,8 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import { useCallback } from "react";
 import Clients from "./Clients";
+import main from "../../assets/mainLanding.jpg";
+
 const MainSec = () => {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
@@ -87,7 +89,7 @@ const MainSec = () => {
           detectRetina: true,
         }}
       />
-      <div className="w-full my-24 relative container lg:flex-row flex flex-col">
+      <div className="w-full my-24 relative container lg:flex-row flex flex-col-reverse">
         <div className="py-10 p-4 w-full">
           <h1 className="text-3xl my-12 font-semibold text-[white] text-center">
             شركة برمجيات توفر لك تصميم مواقع و تصميم تطبيقات لتحقيق أهداف مشروعك
@@ -102,7 +104,7 @@ const MainSec = () => {
         <div className="w-full">
           <img
             className="hidden md:block w-[50%] lg:w-[90%] mx-auto"
-            src="https://webstdy.com/web/img/webp/web-development-services-ar.webp"
+            src={main}
             alt=""
           />
         </div>

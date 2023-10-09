@@ -13,16 +13,13 @@ const Home = () => {
   return (
     <>
       <MainSec />
+      <WhyChoseUs />
       {/* <Clients /> */}
-      <OurServices />
-      <ProjectsSlider />
-      <AudioReviews />
-      <ProjectSteps />
-      <TextReviews />
       <div className="bg-dark text-[white] font-semibold py-2">
         <div className="container flex lg:flex-row gap-2 flex-col items-center">
           <p className="w-full text-center lg:text-left">
-            ويب ستدي شركة برمجيات تساعدك على الوصول لهدفك بأفضل الطرق الممكنة
+            ديجيتال ديزاينر شركة برمجيات تساعدك على الوصول لهدفك بأفضل الطرق
+            الممكنة
           </p>
           <div className="w-full">
             <img
@@ -33,9 +30,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <WhyChoseUs />
+      <TextReviews />
+      <OurServices />
+      {/* <ProjectsSlider /> */}
+      {/* <AudioReviews /> */}
+      {/* <ProjectSteps /> */}
+
       <ContactUs />
-      <EmailSub />
+      {/* <EmailSub /> */}
     </>
   );
 };

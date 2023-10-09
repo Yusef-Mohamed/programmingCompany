@@ -5,6 +5,9 @@ import { MdEmail } from "react-icons/md";
 import { RiTwitterXFill } from "react-icons/ri";
 import { AiFillLinkedin, AiOutlineInstagram } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
+import { services } from "../servises";
+import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -13,12 +16,8 @@ const Footer = () => {
         <div className="container flex flex-col py-12 lg:grid gap-4 lg:grid-cols-4">
           <div className="flex justify-center lg:justify-start items-center">
             <div>
-              <img
-                className="my-8 w-[150px] mx-auto"
-                src="https://webstdy.com/web/new-logos/footer-logo.svg"
-                alt=""
-              />
-              <div className="flex gap-4 justify-center flex-wrap text-3xl">
+              <img className="my-8 w-[150px] mx-auto" src={logo} alt="" />
+              <div className="flex gap-4 justify-center flex-wrap text-xl">
                 <RiTwitterXFill />
                 <BsFacebook />
                 <AiFillLinkedin />
@@ -49,25 +48,42 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold text-center lg:text-start">خدماتنا</h4>
+            <h4 className="font-semibold text-center lg:text-start">روابط</h4>
             <ul className="flex gap-2 mt-3 flex-col items-center lg:items-start">
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
+              <li>
+                <Link to="/" className={"hover:text-sky transition-all"}>
+                  الرئيسية
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/about" className={"hover:text-sky transition-all"}>
+                  من نحن
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/contact" className={"hover:text-sky transition-all"}>
+                  تواصل معنا
+                </Link>
+              </li>
             </ul>
           </div>
           <div>
             <h4 className="font-semibold text-center lg:text-start">خدماتنا</h4>
             <ul className="flex gap-2 mt-3 flex-col items-center lg:items-start">
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
-              <li>انشاء المواقع الالكترونية</li>
+              <ul className="absolute flex flex-col gap-2 whitespace-nowrap">
+                {services.map((item) => (
+                  <li key={item.id}>
+                    <Link
+                      to={`/services/${item.id}`}
+                      className={"hover:text-sky transition-all"}
+                    >
+                      {item.heading}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </ul>
           </div>
         </div>

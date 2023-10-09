@@ -5,9 +5,7 @@ const TextReviews = () => {
     <div className="container py-12">
       <div className="heading">
         <h2>
-          <b>
-            لا تكتفي بما نخبرك به عن جودة خدماتنا ولكن شاهد ما يقوله عملائنا
-          </b>
+          <b>بعض أراء عملائنا عن جودة خدماتنا</b>
         </h2>
       </div>
       <div className="flex items-center justify-center flex-wrap mt-10">
