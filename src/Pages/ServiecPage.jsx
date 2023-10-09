@@ -13,7 +13,12 @@ const ServiecPage = () => {
           <h2>{serviec.heading}</h2>
           <p>{serviec.paragraph}</p>
         </div>
-        <p>{serviec.articel}</p>
+        <div className="flex items-center gap-4 lg:flex-row flex-col text-xl">
+          <div className="lg:w-[50%]">
+            <img src={serviec.image} className="w-full rounded-xl" alt="" />
+          </div>
+          <p className="lg:w-[50%]">{serviec.articel}</p>
+        </div>
         <TextReviews />
         <div className="heading py-12">
           <h2>{serviec.listHeading}</h2>

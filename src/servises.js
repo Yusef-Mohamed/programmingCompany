@@ -1,5 +1,9 @@
+import design from "./assets/design.jpg";
+import seo from "./assets/seo.jpg";
+import programming from "./assets/programming.jpg";
 export const services = [
   {
+    image: design,
     id: "service_1",
     heading: "تصميم الهوية",
     paragraph:
@@ -16,6 +20,7 @@ export const services = [
     ],
   },
   {
+    image: programming,
     id: "service_2",
     heading: "تصميم المواقع الالكترونيه المميزه",
     paragraph:
@@ -31,6 +36,7 @@ export const services = [
   },
   {
     id: "service_3",
+    image: programming,
     heading: "برمجة وتطوير تطبيقات الهواتف الذكية",
     paragraph:
       "اذا كان لديك فكره من خيالك وتحتاج ان تنفذها على ارض الواقع الى تطبيق جوال بمميزات فائقه الاتقان والاحترافيه ، فنحن نقدم لك خدمه التنفيذ في وقت قياسي بجوده عاليه ",
@@ -47,6 +53,7 @@ export const services = [
   {
     id: "service_4",
     heading: "تهيئة المواقع في محركات البحث",
+    image: seo,
     paragraph:
       "نقدم خدمات سيو وتسويق الكتروني و بخدماتنا سنجلعك تتصدر نتائج محركات البحث",
     articel:

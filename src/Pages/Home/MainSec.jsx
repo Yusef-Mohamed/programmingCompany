@@ -103,7 +103,7 @@ const MainSec = () => {
         </div>
         <div className="w-full">
           <img
-            className="hidden md:block w-[50%] lg:w-[90%] mx-auto"
+            className=" hidden md:block w-[50%] lg:w-[90%] mx-auto"
             src={main}
             alt=""
           />
