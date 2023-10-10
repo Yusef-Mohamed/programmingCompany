@@ -16,18 +16,11 @@ const Home = () => {
       <WhyChoseUs />
       {/* <Clients /> */}
       <div className="bg-dark text-[white] font-semibold py-2">
-        <div className="container flex lg:flex-row gap-2 flex-col items-center">
-          <p className="w-full text-center lg:text-left">
+        <div className="container">
+          <p className="w-full text-center">
             ديجيتال ديزاينر شركة برمجيات تساعدك على الوصول لهدفك بأفضل الطرق
             الممكنة
           </p>
-          <div className="w-full">
-            <img
-              className=" mx-auto"
-              src="https://webstdy.com/web/img/2022/webp/start-project-bg.webp"
-              alt=""
-            />
-          </div>
         </div>
       </div>
       <TextReviews />
