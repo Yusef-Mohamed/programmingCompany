@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="bg-dark text-[white]">
-        <div className="container flex flex-col py-12 lg:grid gap-4 lg:grid-cols-4">
+        <div className="container flex flex-col py-12 lg:grid gap-4 lg:grid-cols-4 ">
           <div className="flex justify-center lg:justify-start items-center">
             <div>
               <img className="my-8 w-[150px] mx-auto" src={logo} alt="" />
@@ -72,25 +72,23 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-center lg:text-start">خدماتنا</h4>
             <ul className="flex gap-2 mt-3 flex-col items-center lg:items-start">
-              <ul className="absolute flex flex-col gap-2 whitespace-nowrap">
-                {services.map((item) => (
-                  <li key={item.id}>
-                    <Link
-                      to={`/services/${item.id}`}
-                      className={"hover:text-sky transition-all"}
-                    >
-                      {item.heading}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              {services.map((item) => (
+                <li key={item.id}>
+                  <Link
+                    to={`/services/${item.id}`}
+                    className={"hover:text-sky  transition-all"}
+                  >
+                    {item.heading}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
       </div>
       <div className="container text-center">
         <p className="text-darkGray py-2">
-          © شركة ويب ستدي للبرمجيات, جميع الحقوق محفوظة 2022
+          © شركة ديجيتال ديزاينر, جميع الحقوق محفوظة 2023
         </p>
       </div>
     </footer>

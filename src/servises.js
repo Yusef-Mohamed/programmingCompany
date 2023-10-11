@@ -1,6 +1,7 @@
 import design from "./assets/design.jpg";
 import seo from "./assets/seo.jpg";
 import programming from "./assets/programming.jpg";
+import web from "./assets/web.jpg";
 export const services = [
   {
     image: design,
@@ -20,7 +21,7 @@ export const services = [
     ],
   },
   {
-    image: programming,
+    image: web,
     id: "service_2",
     heading: "تصميم المواقع الالكترونيه المميزه",
     paragraph:

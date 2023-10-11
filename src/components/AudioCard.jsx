@@ -2,7 +2,6 @@ const AudioCard = () => {
   return (
     <div className="w-full  relative p-4 bg-[#f5f6f4] rounded-xl">
       <img
-        src="https://webstdy.com/web-assets/images/waleed.jpg"
         className="w-[100px] absolute -top-[25px] -right-[15px] h-[100px] rounded-full border-2 border-sky"
         alt=""
       />
