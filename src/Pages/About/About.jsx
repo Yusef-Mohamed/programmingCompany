@@ -1,4 +1,3 @@
-import EmailSub from "../../components/EmailSub";
 import OurServices from "../Home/OurServices";
 import TextReviews from "../Home/TextReviews";
 import aboutus from "../../assets/whoweare.png";
